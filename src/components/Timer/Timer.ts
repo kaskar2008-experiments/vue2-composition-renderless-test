@@ -1,4 +1,3 @@
-<script lang="ts">
 import { defineComponent, onMounted, onBeforeUnmount } from '@vue/composition-api'
 
 export default defineComponent({
@@ -21,6 +20,6 @@ export default defineComponent({
     onBeforeUnmount(() => {
       clearInterval(timerRef)
     })
-  }
+  },
+  render: h => h()
 })
-</script>
