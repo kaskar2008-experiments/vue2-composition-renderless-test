@@ -37,7 +37,7 @@
 import { defineComponent } from '@vue/composition-api'
 import BaseCounter from './Counter/Base/Base.vue'
 import FullCounter from './Counter/Full/Full.vue'
-import Timer from './Timer/Timer.vue'
+import Timer from './Timer/Timer'
 
 export default defineComponent({
   components: {
